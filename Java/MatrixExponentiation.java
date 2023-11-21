@@ -1,7 +1,7 @@
 public class MatrixExponentiation {
 
     // Function to calculate Fibonacci using matrix exponentiation
-    public static long fibonacciMatrix(int n) {
+    public static long fibonacciMatrix(long n) {
         if (n <= 1) return n;
 
         // Initialize the result matrix as an identity matrix
@@ -44,11 +44,11 @@ public class MatrixExponentiation {
 
     public static void main(String[] args) {
         // Test points
-        int[] testPoints = {10, 100, 1000, 10000, 100000, 1000000};
+        long[] testPoints = {10, 100, 1_000, 10_000, 100_000, 1_000_000, 10_000_000, 100_000_000, 1_000_000_000, 10_000_000_000L, 100_000_000_000L};
         int numberOfCycles = 100; // Number of cycles for averaging
 
         // Iterate over each test point
-        for (int n : testPoints) {
+        for (long n : testPoints) {
             long totalTime = 0; // Total time for all cycles
 
             // Run the calculation 100 times to find the average time

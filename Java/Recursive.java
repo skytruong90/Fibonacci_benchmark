@@ -9,14 +9,14 @@ public class Recursive {
 
     public static void main(String[] args) {
         // Test points 
-        int[] testPoints = {10, 100, 1_000, 10_000, 100_000, 1_000_000};
-        int numberOfCycles = 5; // Number of cycles for averaging
+        int[] testPoints = {10, 20, 30, 40};
+        int numberOfCycles = 20; // Number of cycles for averaging
 
         // Iterate over each test point
         for (int n : testPoints) {
             long totalTime = 0; // Total time for all cycles
 
-            // Run the calculation 5 times to find the average time
+            // Run the calculation 20 times to find the average time
             for (int i = 0; i < numberOfCycles; i++) {
                 long startTime = System.nanoTime();
                 fibonacciRecursive(n);

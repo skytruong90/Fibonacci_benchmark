@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 fib_positions = [10, 100, 500, 1000]
 
 # Execution times in seconds
-execution_times = [7.85718E-5, 8.7983E-5, 1.381102E-4, 1.637494E-4]
+execution_times = [6.969100000000001E-5, 1.052344E-4, 1.699412E-4, 1.716764E-4]
 
 # Create a figure and axis with more customization options
 fig, ax = plt.subplots()
