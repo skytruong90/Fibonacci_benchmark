@@ -30,8 +30,8 @@ public class Loop {
     // Entry point of the program.
     public static void main(String[] args) {
         // Array containing the specific points at which to test the Fibonacci function.
-        int[] testPoints = {10, 100, 1_000, 10_000, 100_000, 1_000_000};
-        int numberOfRuns = 100; // Number of runs to calculate the average time.
+        int[] testPoints = {10, 100, 1_000, 10_000, 100_000, 500_000};
+        int numberOfRuns = 20; // Number of runs to calculate the average time.
 
         // Iterate over each test point.
         for (int n : testPoints) {
